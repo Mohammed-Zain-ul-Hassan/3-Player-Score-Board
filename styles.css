@@ -1,0 +1,77 @@
+/*
+ * Copyright (c) [June 17, 2024] [Mohammed Zain ul Hassan]
+ * All rights reserved.
+ */
+
+body{
+    background: #1B244A;
+    font-size: 100%;
+    min-width: 1000px;
+}
+
+table{
+    width : 100%;
+    color : white;
+    font-size: 100%;
+    
+}
+
+.max-score {
+    color: red;
+    font-size: 50%; /* Reduce font size to 50% */
+    margin-left: 10px; /* Add some space between the underline and the span */
+}
+
+.team{
+    font-size : 300%;
+}
+
+.blackLine{
+    width : 20%;
+    height : 100%;
+    background-color: black;
+}
+
+.blackBox{
+    width : 100%;
+    padding : 2% 17%;
+    height : 300%;
+    border-color: white;
+    color :#F94F6D;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1100%;
+    border-radius: 10%;
+    background-color: black;
+}
+
+td{
+    text-align: center;
+}
+
+caption{
+    color : white;
+    font-size: 600%;
+}
+
+button{
+    width: 20%;
+}
+
+.increment {
+    background-color: #2196F3; /* Cool blue color */
+    color: white; /* Text color */
+    border: 2px solid #1976D2; /* Border with shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    padding: 12px 24px; /* Increase size */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    text-transform: uppercase; /* Uppercase text */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.increment:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+    border-color: #2196F3; /* Matching border color on hover */
+}

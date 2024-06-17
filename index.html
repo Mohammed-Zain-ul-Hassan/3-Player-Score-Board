@@ -1,0 +1,79 @@
+<!--
+   Copyright (c) [June 17, 2024] [Mohammed Zain ul Hassan]
+   All rights reserved.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel = "stylesheet" href = "styles.css"></link>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<font color="white">
+        
+    </head>
+    <body>
+        <table>
+            <caption>
+                <u>Score Board</u>
+                <span class="max-score">(Max Score: 10)</span>
+            </caption>
+            <thead>
+                <tr>
+                    <th class = "team">Team1</th>
+                    <th class = "team">Team2</th>
+                    <th class = "team">Team3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class = "blackLine">
+                    <td >------------------------</td>
+                    <td >------------------------</td>
+                    <td >------------------------</td>
+                </tr>
+                <tr>
+                    <td><pre>       </pre></td>
+                    <td><pre>       </pre></td>
+                    <td><pre>       </pre></td>
+                </tr>
+                <tr>
+                    <td><span class = "blackBox">
+                        <span class = "Score1">0</span>
+                    </span></td>
+                    <td><span class = "blackBox">
+                        <span class = "Score2">0</span>
+                    </span></td>
+                    <td><span class = "blackBox">
+                        <span class = "Score3">0</span>
+                    </span></td>
+                </tr>
+                <tr>
+                    <td><pre>       </pre></td>
+                    <td><pre>       </pre></td>
+                    <td><pre>       </pre></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class = "increment" onclick = "increment1(1)">+1</button>
+                        <button class = "increment" onclick = "increment1(2)">+2</button>
+                        <button class = "increment" onclick = "increment1(3)">+3</button>
+                    </td>
+                    <td>
+                        <button class = "increment" onclick = "increment2(1)">+1</button>
+                        <button class = "increment" onclick = "increment2(2)">+2</button>
+                        <button class = "increment" onclick = "increment2(3)">+3</button>
+                    </td>
+                    <td>
+                        <button class = "increment" onclick = "increment3(1)">+1</button>
+                        <button class = "increment" onclick = "increment3(2)">+2</button>
+                        <button class = "increment" onclick = "increment3(3)">+3</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src = "script.js"></script>
+    </body>
+</html>
